@@ -10,7 +10,7 @@ namespace SOLID
     /* 
                 Dependency Inversion Principle
     
-    * One should "depend upon abstractions, [not] concreations."
+    * One should "depend upon abstractions, not concreations."
     
     * Detail should depend on abstractions and abstraction 
      should not depend on details.
@@ -18,7 +18,7 @@ namespace SOLID
     * High level module should not depend on low level module and
     both should depend on abstractions.
 
-    *Adapter design pattern implement the dependecy inversion principle.
+    *Adapter design pattern implement the dependency inversion principle.
     
     *Eg. Implement the repository pattern between business and data base layer.
         

@@ -9,10 +9,10 @@ namespace SOLID
     /* 
                 Liskov Substitution Principle
     
-    * Objects in a program should be replaceable with instances of their subtypes
-    without alterinf the correctness of that program.
+    * Objects in a program should be replaceable with instances of their subtypes 
+    without altering the correctness of that program.
 
-    *Base class instance replaced/ substitution by its sub type instance
+    * Base class instance replaced/ substitution by its sub type instance
     with no change in functionality.
 
     *Extension of the open-close principle.
@@ -44,7 +44,7 @@ namespace SOLID
             
         }
 
-        public  int Calculate()
+        public new int Calculate()
         {
             return _numbers.Where(x => x % 2 == 0).Sum();
         }

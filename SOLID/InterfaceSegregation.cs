@@ -12,11 +12,11 @@ namespace SOLID
     * Many client-specific interfaces are better than one general-purpose
     big interface.
     
-    * Interface only useful interfaces. Not implement a big interface.
+    * Interface only useful when its simple. Do not implement a big interface.
     
-    * Broken the big interface into usefull small interfaces.
+    * Broken the big interface into useful small interfaces.
     
-    * Implement multiple interfaces where required.
+    * Implement multiple interfaces when required.
     
      */ 
 
@@ -31,7 +31,7 @@ namespace SOLID
     }
 
     //Has no copy functuality
-    public class HpPrinter : IPrintTasks
+    public class XPrinter : IPrintTasks
     {
         public bool PrintContent(string content)
         {
@@ -53,7 +53,7 @@ namespace SOLID
     }
 
     //Has no scan functuality
-    public class CannonPrinter : IPrintTasks
+    public class YPrinter : IPrintTasks
     {
         public bool PrintContent(string content)
         {
@@ -91,7 +91,7 @@ namespace SOLID
         bool ScanContent(string content);
     }
 
-    public class NewHpPrinter : IPrintContent, ICopyContent
+    public class NewXPrinter : IPrintContent, ICopyContent
     {
         public bool PrintContent(string content)
         {
@@ -107,7 +107,7 @@ namespace SOLID
 
     }
 
-    public class NewCannonPrinter : IPrintContent, IScanContent
+    public class NewYPrinter : IPrintContent, IScanContent
     {
         public bool PrintContent(string content)
         {

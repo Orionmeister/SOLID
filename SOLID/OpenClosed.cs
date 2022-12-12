@@ -9,10 +9,10 @@ namespace SOLID
     /* 
                 Open-Closed Principle
     
-    * Class or Software entities .. should be open for extension,
+    * Class or Software entities should be open for extension,
     but closed for modification.
 
-    * Use abstact/interface class as a base class for most common abstract feature
+    * Use abstract class or an interface as a base for most common abstract features
     and use the separate classes for different implementation of abstact methods and
     create the child class object and assign it to parent.
     
@@ -21,8 +21,8 @@ namespace SOLID
     public class EmployeeReport
     {
         public int Id { get; set; }
-        public string Name { get; set; }
-        public string Level { get; set; }
+        public string? Name { get; set; }
+        public string? Level { get; set; }
         public int WorkingHours { get; set; }
         public double HourlyRate { get; set; }
     }

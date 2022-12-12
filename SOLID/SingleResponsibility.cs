@@ -9,11 +9,11 @@ namespace SOLID.SingleResponsibility
     /* 
                 Single Responsibility Principle
     
-    * A class hould only have a single responsiblitiy.
+    * A class should only have a single responsibility.
         
     * Single reason for change and encapsulated class.
     
-    * Create different-2 interface.
+    * Create different interfaces.
     
     * KISS (Keep it simple stupid :) )
     
