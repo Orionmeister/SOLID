@@ -1,1 +1,1 @@
-chsarp-solid
+SOLID principles demonstration on C#.
